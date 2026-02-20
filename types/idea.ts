@@ -1,0 +1,24 @@
+export type SubmissionFormData = {
+  ideaTitle: string;
+  problemStatement: string;
+  targetCustomer: string;
+  geography: string;
+  industry: string;
+  businessModel: string;
+  marketValidation: string;
+  competitionDensity: string;
+  differentiation: string;
+  founderExperience: string;
+  teamComposition: string;
+  availableBudget: string;
+  mvpComplexity: string;
+  marketingPlan: string;
+  pricingClarity: string;
+  retentionPotential: string;
+  monetizationTimeline: string;
+  technicalAdvantage: string;
+  legalRisk: string;
+  goToMarketReadiness: string;
+  urgencyLevel: string;
+  notes?: string;
+};
